@@ -1,0 +1,59 @@
+# ----------------------------------------
+# Gradle build files
+# ----------------------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# ----------------------------------------
+# IntelliJ IDEA / JetBrains IDE files
+# ----------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ----------------------------------------
+# Output and generated files
+# ----------------------------------------
+output_docs/
+processed_images/
+sample_images/
+-p/                     # if this is a temp or intermediate folder
+
+# ----------------------------------------
+# Logs and temp files
+# ----------------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ----------------------------------------
+# OS-specific files
+# ----------------------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ----------------------------------------
+# Java class and package artifacts
+# ----------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# ----------------------------------------
+# Environment and runtime
+# ----------------------------------------
+*.env
+*.properties.local
+*.config
